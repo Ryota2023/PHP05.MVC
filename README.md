@@ -2,7 +2,6 @@
 ●期限：2023/7/21　
 ●提出日：2023/7/26
 # PHP05 MVC
-## DEMO
 https://github.com/Ryota2023/PHP05.MVC
 
 ## 紹介と使い方
