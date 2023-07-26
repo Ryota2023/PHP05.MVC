@@ -19,7 +19,6 @@ MCVスタイルに変更試みました。
 ◆V（View)
 「menu.php」→「templates/list1.php」
 「detail.php」→「templates/list2.php」
-①MCVのMの分岐が難しかったです。
 
 ◆M（Model）
 funcs.php（結果的に授業で作ったこのfuncs.phpがそのままモデルになったように思うのですが、もっと分けれるところはありました。
