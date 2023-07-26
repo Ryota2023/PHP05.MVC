@@ -37,6 +37,7 @@ $datePrinter->printDate();
         <!-- 音楽のジャンル：<input type="text" name="music_mood"><br> -->
         音楽のジャンル：
           <select name="music_mood">
+              <option value="" selected disabled>選択してください</option>
               <option value='邦楽（唱歌）'>邦楽（唱歌）</option>
               <option value='邦楽（民謡）'>邦楽（民謡）</option>
               <option value='邦楽（歌謡曲）'>邦楽（歌謡曲）</option>
