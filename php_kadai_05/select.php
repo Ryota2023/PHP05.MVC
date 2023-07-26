@@ -63,7 +63,7 @@ if ($status == false) {
     echo '<header><div class="header"><h2>*** 過去データ ***</h2><a href="menu.php"><h3>戻る</h3></a></header>';
     echo '<table style="width: 90%;" border="1">'; // テーブルの横幅を100%に指定し、罫線を追加
     echo '<tr>';
-    echo '<th class="field" style="width: 20px;">(No.)</th>';
+    echo '<th class="field" style="width: 20px;">(No.)更新</th>';
     echo '<th class="field" style="width: 70px;">日付</th>';
     echo '<th class="field" style="width: 30px;">睡眠時間</th>';
     echo '<th class="field" style="width: 20px;">体調</th>';
