@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <title>過去記録</title>
   <link rel="stylesheet" href="style1.css">
 
@@ -139,8 +139,6 @@ while ($r = $stmt->fetch(PDO::FETCH_ASSOC)) {
         $conditionBelow3++;
     }
 
-    // 以下は前回のループ内の処理と同じです
-    // ...
 }
 
 // 結果表示
@@ -162,7 +160,10 @@ echo '<span>（体調が良くない日の割合は、全体の </span>';
 echo '<span class="result_s_time">' . number_format($rate_condition_count, 1) . '％</span>';
 echo '<span> です！）</span><br>';
 
-
+$_SESSION['totalRows'] = $totalRows;
+$_SESSION['sleep_time_count'] = $sleep_time_count;
+$_SESSION['rate_bad_sleep_time'] = $rate_bad_sleep_time;
+$_SESSION['rate_condition_count'] = $rate_condition_count;
 ?>
 
 </body>
